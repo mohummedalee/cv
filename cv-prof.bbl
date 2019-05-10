@@ -15,11 +15,4 @@ Till Speicher, \textbf{Muhammad Ali}, Giridhari Venkatadri, Filipe Ribeiro,
 \newblock In {\em Proceedings of the Conference on Fairness, Accountability,
   and Transparency (FAT*)}, 2018.
 
-\bibitem{ali-2019-discrimination}
-\textbf{Muhammad Ali}*, Piotr Sapiezynski*, Miranda Bogen, Aleksandra Korolova,
-  Alan Mislove, and Aaron Rieke.
-\newblock {Discrimination through optimization: How Facebook's ad delivery can
-  lead to skewed outcomes}, April 2019.
-\newblock \url{https://arxiv.org/abs/1904.02095}.
-
 \end{thebibliography}

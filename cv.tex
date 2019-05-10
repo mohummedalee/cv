@@ -1,74 +1,124 @@
 \documentclass[10pt]{article}
-\usepackage{array, xcolor, lipsum, bibentry}
+\usepackage{array, lipsum, bibentry}
+\usepackage[dvipsnames]{xcolor}
 \usepackage[margin=2cm]{geometry}
+
 \pagenumbering{gobble}
 
-\title{\bfseries\Huge \color{gray}{Muhammad Ali}}
-% NOTE: uncomment line below use when you get a decent homepage
-%\author{e.feasley@gmail.com\hspace{200pt}(917)-647-8930\\\texttt{cs.utexas.edu/\textasciitilde elie}\hspace{100pt}2828 B San Gabriel, Austin, TX}
-\author{mohummed.alee@gmail.com\hspace{200pt}+49 151 71868391\\
-\hspace{230pt}Waldhausweg 6, Saarbr{\"u}cken, Germany}
+% header; if needed
+%\usepackage{fancyhdr} 
+%\pagestyle{fancy}
+%\fancyhf{}
+%\rhead{Information Science, Ph.D., Fall 2018}
+%\lhead{Muhammad Ali}
+%\fancypagestyle{firststyle}
+%{
+%   \fancyhf{}
+%   \fancyhead[C]{Muhammad Ali}
+%   \rhead{U-M ID: 9524-8480}
+%	\rhead{Information Science, Ph.D., Fall 2018}
+%	\lhead{Muhammad Ali}
+%}
+
+\title{\bfseries\Huge \color{OliveGreen}{Muhammad Ali}}
+% >> multi-column
+\author{+1 (781) 626 0891 \hspace{183pt} \texttt{mali@ccs.neu.edu}\\
+\hspace{240pt}\texttt{http://ccs.neu.edu/\raisebox{-.7ex}\textasciitilde mali}}
+% >> single line
+%\author{+1 (781) 626 0891\hspace{30pt} \texttt{mali@ccs.neu.edu}\hspace{30pt} \texttt{http://ccs.neu.edu/\raisebox{-.7ex}\textasciitilde mali}}
+%Daimlerstrasse 39, Saarbr{\"u}cken, Germany
 \date{}
 \definecolor{lightgray}{gray}{0.8}
-\newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
-\newcolumntype{R}{p{0.8\textwidth}}
-\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
+\newcolumntype{L}{>{\raggedleft}p{0.19\textwidth}}
+\newcolumntype{R}{p{0.75\textwidth}}
+\newcommand\VRule{\color{OliveGreen}\vrule width 0.5pt}
 
 \begin{document}
 \maketitle
 
+% header; if needed
+%\thispagestyle{firststyle}
 
-\section*{Interests}
-\begin{tabular}{L!{\VRule}R}
-	& Machine learning, social networks, deep learning, statistical natural language processing, recommender systems.
-\end{tabular}
-
-\section*{Education}
-\begin{tabular}{L!{\VRule}R}
-2016--Present&{\bf Pursuing MS in Computer Science, Saarland University}\\
-			& Saarbr{\"u}cken, Germany\vspace{5pt}\\
-			& GPA 1.7/5.0\\
-			& {Graduate Coursework: }{\it Graphical Models, Machine Learning, Social Networks}\vspace{5pt}\\
-2011--2015&{\bf BS in Computer Science, National University of Computer \& Emerging Sciences (NUCES)}\\
-			& Lahore, Pakistan\vspace{5pt}\\
-			& GPA 3.46/4.0 (95th percentile)\\
-			& Thesis: {\it Politeness Classification in Online Community Requests using Recursive Neural Networks}
-\end{tabular}
-
-% NOTE: uncomment below for publications
-%\bibliographystyle{plain}
-%\nobibliography{pubs}
-%\section*{Publications}
+%\section*{Interests}
 %\begin{tabular}{L!{\VRule}R}
-%2012&\bibentry{tansey2012accelerating}\vspace{5pt}\\
-%2012&\bibentry{miikkulainen2012multiagent}\vspace{5pt}\\
-%2011&\bibentry{desjardins2011playing}\\
+%	& Machine learning, social networks, deep learning, statistical natural language processing, recommender systems.
 %\end{tabular}
-%{\vspace{20pt}
+
+\section*{\Large Education}
+\begin{tabular}{L!{\VRule}R}
+Sep 2018 -- Present&{\bf Ph.D. in Computer Science}\\
+			& {\bf Northeastern University}\vspace{5pt}\\
+			& Grade: 3.75/4.0\\
+			& Co-advised by Alan Mislove and Christo Wilson\vspace{5pt}\\
+			
+Aug 2018&{\bf M.S. in Computer Science}\\
+			& {\bf Saarland University}\vspace{5pt}\\
+			& Grade: 1.5/5.0 (A-)\\
+% 			& Graduate Coursework: Social Media Analysis, Data Mining, Natural Language Processing, Machine Learning\vspace{5pt}\\
+			& Thesis: {\it Measuring Bias in Facebook's Ad-Targeting Attributes}. Supervised by Krishna Gummadi.\vspace{5pt}\\
+
+May 2015&{\bf B.S. in Computer Science}\\
+			& {\bf National University of Computer \& Emerging Sciences (NUCES), Lahore}\vspace{5pt}\\
+			& GPA: 3.46/4.0 (95th percentile)\\
+			& Thesis: {\it Politeness Classification in Online Community Requests using Recursive Neural Networks.} Supervised by Mehreen Saeed.
+\end{tabular}
 
 \section*{Work Experience}
 \begin{tabular}{L!{\VRule}R}
-%Currently&{\bf Research Assistant, UT Austin}\\
-%& In the Neural Networks group led by Risto Miikkulainen\\
-%& Researching communication between agents in multiagent systems in collaboration with biologists studying hyenas in the wild. Co-wrote grant that earned funding from the NSF's BEACON Center for the Study of Evolution in Action.\\\\
-2015-2016 & {\bf Backend Engineer, Patari Music}\\
-	& One of the startup's earliest hires.\\ 
-	& Built the foundation for the music platform's social features; constantly maintained and added new features to the backend API.\\\\
-2015 & {\bf Teaching Assistant, NUCES}\\
-	& For the Introduction to Computing course in Fall 15.\\
-	& Helped design and grade assignments; conducted programming tutorials to help freshmen.\\\\
-2013 &\textbf{Research Intern, Lahore University of Management Sciences}\\
-	& In the Neighborhood for Emerging World Technologies lab.\\
-	& Worked on feature extraction from online newspapers for predicting malaria outbreak severity.\ Maintained disease surveillance systems developed in collaboration with the provincial government.\\\\
-2012 & \textbf{Curriculum Development Intern, CARE Foundation Pakistan}\\
-     & Volunteered with the NGO to develop teaching techniques for public schools.\ Wrote several lecture plans for primary level mathematics and English.
+Sep 2018 -- Present & {\bf Graduate Research Assistant}\\
+	& {\bf Khoury College of Computer Sciences, Northeastern University}\\
+	& \textcolor{darkgray}{Boston, Massachusetts, USA}\vspace{5pt}\\
+	& Advised by Alan Mislove and Christo Wilson.\\
+	& Projects in algorithmic auditing and measurement of machine learning systems.\\\\
+
+Jun 2017 -- Aug 2018 & {\bf Student Research Assistant}\\
+	& {\bf Max Planck Institute for Software Systems}\\
+	& \textcolor{darkgray}{Saarbr{\"u}cken, Germany}\vspace{5pt}\\
+	& Part of Krishna Gummadi's Networked Systems group.\\
+	& Master's thesis work and projects related to bias and discrimination in Facebook advertising. Published work at FAT* 2018 and FATREC 2017.\\\\
+	
+Aug 2015 -- Mar 2016 & {\bf Backend Engineer}\\
+	& {\bf Patari Music}\\
+	& \textcolor{darkgray}{Lahore, Pakistan}\vspace{5pt}\\
+	& Built the foundation for the music platform's social features; maintained and added new features to the backend API.\\
+	
+%Fall 2015 & {\bf Teaching Assistant, NUCES}\\
+%	& Introduction to Computing, Fall 2015.\\\\
+	
+%May 2013 -- Jul 2013&\textbf{Research Intern}\\
+%	& \textbf{Lahore University of Management Sciences}\\
+%	& \textcolor{darkgray}{Lahore, Pakistan}\vspace{5pt}\\
+%	& Part of the Neighborhood for Emerging World Technologies lab.\\
+%	& Worked on NLP features and general maintenance of disease surveillance systems developed in collaboration with the provincial government.\\
+%2012 & \textbf{Curriculum Development Intern, CARE Foundation Pakistan}\\
+%     & Volunteered with the NGO to develop teaching techniques for public schools.\ Wrote several lecture plans for primary level mathematics and English.
 \end{tabular}
 
-{\vspace{20pt}
+% NOTE: uncomment below for publications
+\bibliographystyle{plain}
+\nobibliography{pubs}
+\section*{Publications}
+\begin{tabular}{L!{\VRule}R}
+2019 & \bibentry{ali-2019-discrimination}\vspace{5pt}\\
+2018 & \bibentry{speicher2018discrimination}\vspace{5pt}\\
+2017 & \bibentry{chakraborty2017quantifying}\\
+\end{tabular}
+%{\vspace{20pt}
+
+%{\vspace{20pt}
 \section*{Skills}
 \begin{tabular}{L!{\VRule}R}
-& Python, JavaScript, C, C++, Java, MATLAB, R, Node.js, MongoDB, SQL\\
-& Writing; both technical and non-technical\\
+& {\bf Technical:} Python, JavaScript, R, C, C++, Go, Java, MATLAB, Node.js, MongoDB, SQL, PHP, Unix, \LaTeX\vspace{5pt}\\
+& {\bf Research:} Data mining and analysis, natural language processing, machine learning, deep learning, social networks, measurement studies\\
+\end{tabular}
+
+\section*{Teaching}
+\begin{tabular}{L!{\VRule}R}
+Fall 2015 & {\bf Teaching Assistant, NUCES}\\
+	& Introduction to Computing (CS101).\\\\
+	
+Summer 2012 & \textbf{Curriculum Development Intern, CARE Foundation Pakistan}\\
+     & Volunteered with the NGO to develop teaching techniques for low-resource public schools.\ Wrote several lecture plans for primary school mathematics and English.
 \end{tabular}
 
 % NOTE: Leadership section commented too
